@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://docker-postgres:5432/docker
+    username: docker
+    password: docker
+
+  jpa:
+    properties:
+      hibernate:
+        temp:
+          use_jdbc_metadata_defaults: false
